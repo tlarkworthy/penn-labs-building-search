@@ -4,16 +4,29 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-compatible" content="IE-edge">
 		<title>Penn Building Search</title>
-		<link href="package.json">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 
-		<h3>Penn Building Search -- Just type in the name of a building and hit enter!</h3>
+		<h1>Penn Building Search</h1>
+		<h3>Start typing in search bar to see results displayed as you type. Hit enter to force update.</h3>
 		<form>
-			<input type="text" name="Building"><input class="search-button" type="submit" value="Search">
+			<input type="text" id="building-name" placeholder="Building Name" name="Building">
 		</form>
-
-		<div class="results"></div>
+		<br>
+		<br>
+		<div id="map">
+		<iframe
+  			width="600"
+  			height="450"
+  			frameborder="0" style="border:0"
+  			src="https://www.google.com/maps/embed/v1/search?key=AIzaSyC4HCSfVL66wCJA24BoYvQw8pCksc5cM0g
+   			 &q=University+of+Pennsylvania+in+Philadelphia" allowfullscreen>
+		</iframe>
+		</div>
+		<div class="results">
+		<h3>Search Results: </h3>
+		</div>
 
 
 

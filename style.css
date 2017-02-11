@@ -1,0 +1,25 @@
+body, h3 {
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    font-size: 50px;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+
+.results {
+    text-align: left;
+    float: left;
+    width: 50%;
+
+}
+
+#map {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
